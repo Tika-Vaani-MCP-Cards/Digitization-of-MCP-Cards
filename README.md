@@ -18,15 +18,8 @@ This repository contains the code for the paper: ["Robust OCR Pipeline for Digit
 6. LMDB datasets of Cropped dates are in the `LMDB_Data` folder.
 
 ## Installation
-### Requirements:
 ```python
    conda create -n mcp python==3.9.17
-   pip install -r requirements.txt
-```
-### Install:
-```python
-   conda create --name mcp
-   conda activate mcp
    pip install -r requirements.txt
 ```
 ## Global-Local Homography based Image Alignment and Text Localization
@@ -41,7 +34,7 @@ For changing the paths, go to Text Localization folder and modify `local_variabl
 If you want to get the text ROIs for you specific Form type, you can follow the instructions below. </br>
 Note that for the MCP cards the ROIs are already provided in the ROI_info/templateCoordinates.csv folder.
 
-<img src="imgs/mark_rois.png" alt="Marked ROIs" width="500">
+<img src="imgs/mark_rois.png" alt="Marked ROIs" width="800">
 
 1. Run `python mark_rois.py`.
 2. Mark Upper_left and Bottom_right coordinates.
@@ -53,7 +46,7 @@ Note that for the MCP cards the ROIs are already provided in the ROI_info/templa
 If you want to get the coordinates for the local regions, follow the instructions below.<span style="color: green;">(Read paper for details on Global-Local alignment)</span></br>
 Note that for the MCP cards the ROIs are already provided in the ROI_info/templateCoordinates.csv folder.
 
-<img src="imgs/marked_local_regions.png" alt="Marked Local Regions" width="500">
+<img src="imgs/marked_local_regions.png" alt="Marked Local Regions" width="800">
 
 1. Run `python mark_local_regions.py`.
 2. Mark coordinates, Click submit.
