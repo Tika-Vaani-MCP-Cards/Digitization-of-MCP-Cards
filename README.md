@@ -1,6 +1,5 @@
 # Digitization-of-MCP-Cards
 
-<<<<<<< HEAD
 This repository contains the code for the ACM JCSS paper: ["Robust OCR Pipeline for Digitization of Mother and Child Protection Cards in India"](https://dl.acm.org/doi/10.1145/3608114), to be published in ACM JCSS 2023.
 
 > The dataset can be accessed [here](https://csciitd-my.sharepoint.com/:f:/g/personal/csy207655_iitd_ac_in/EvwtbNm-my9KpB7uQ3EQ9dEBtzUhPskOqxSIAQVFwPhxsQ?e=h4ZgNn).
@@ -42,7 +41,7 @@ For changing the paths, go to Text Localization folder and modify `local_variabl
 If you want to get the text ROIs for you specific Form type, you can follow the instructions below. </br>
 Note that for the MCP cards the ROIs are already provided in the ROI_info/templateCoordinates.csv folder.
 
-<img src="imgs/mark_rois.png" alt="Marked ROIs" width="450">
+<img src="imgs/mark_rois.png" alt="Marked ROIs" width="500">
 
 1. Run `python mark_rois.py`.
 2. Mark Upper_left and Bottom_right coordinates.
@@ -54,7 +53,7 @@ Note that for the MCP cards the ROIs are already provided in the ROI_info/templa
 If you want to get the coordinates for the local regions, follow the instructions below.<span style="color: green;">(Read paper for details on Global-Local alignment)</span></br>
 Note that for the MCP cards the ROIs are already provided in the ROI_info/templateCoordinates.csv folder.
 
-<img src="imgs/marked_local_regions.png" alt="Marked Local Regions" width="450">
+<img src="imgs/marked_local_regions.png" alt="Marked Local Regions" width="500">
 
 1. Run `python mark_local_regions.py`.
 2. Mark coordinates, Click submit.
@@ -148,10 +147,4 @@ Run get_date_accuracy.py file:
 python get_date_acc.py --path TextResults/resnet_bilstm_local_processed.txt
 ```
 
-=======
-This repo contains the code for the paper "Robust OCR Pipeline for Digitization of Mother and Child Protection Cards in India" to be published in ACM JCSS 2023.
-
-
-The dataset can be accessed here: [Link](https://csciitd-my.sharepoint.com/:f:/g/personal/csy207655_iitd_ac_in/EvwtbNm-my9KpB7uQ3EQ9dEBtzUhPskOqxSIAQVFwPhxsQ?e=h4ZgNn)
->>>>>>> e045945449da31102c348edeb2e4ff494a9612bf
 
