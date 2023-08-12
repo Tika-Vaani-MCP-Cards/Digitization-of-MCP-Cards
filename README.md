@@ -1,5 +1,6 @@
 # Digitization-of-MCP-Cards
 
+<<<<<<< HEAD
 This repository contains the code for the ACM JCSS paper: ["Robust OCR Pipeline for Digitization of Mother and Child Protection Cards in India"](https://dl.acm.org/doi/10.1145/3608114), to be published in ACM JCSS 2023.
 
 > The dataset can be accessed [here](https://csciitd-my.sharepoint.com/:f:/g/personal/csy207655_iitd_ac_in/EvwtbNm-my9KpB7uQ3EQ9dEBtzUhPskOqxSIAQVFwPhxsQ?e=h4ZgNn).
@@ -147,4 +148,10 @@ Run get_date_accuracy.py file:
 python get_date_acc.py --path TextResults/resnet_bilstm_local_processed.txt
 ```
 
+=======
+This repo contains the code for the paper "Robust OCR Pipeline for Digitization of Mother and Child Protection Cards in India" to be published in ACM JCSS 2023.
+
+
+The dataset can be accessed here: [Link](https://csciitd-my.sharepoint.com/:f:/g/personal/csy207655_iitd_ac_in/EvwtbNm-my9KpB7uQ3EQ9dEBtzUhPskOqxSIAQVFwPhxsQ?e=h4ZgNn)
+>>>>>>> e045945449da31102c348edeb2e4ff494a9612bf
 
