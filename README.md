@@ -1,6 +1,6 @@
 # Digitization-of-MCP-Cards
 
-This repository contains the code for the ACM JCSS paper: ["Robust OCR Pipeline for Digitization of Mother and Child Protection Cards in India"](https://dl.acm.org/doi/10.1145/3608114), to be published in ACM JCSS 2023.
+This repository contains the code for the paper: ["Robust OCR Pipeline for Digitization of Mother and Child Protection Cards in India"](https://dl.acm.org/doi/10.1145/3608114), published in ACM JCSS 2023.
 
 > The dataset can be accessed [here](https://csciitd-my.sharepoint.com/:f:/g/personal/csy207655_iitd_ac_in/EvwtbNm-my9KpB7uQ3EQ9dEBtzUhPskOqxSIAQVFwPhxsQ?e=h4ZgNn).
 
