@@ -106,9 +106,9 @@ for line in lines:
         gt_others.append(gt)
         pred_others.append(pred)
 
-print('total dates with year 21- ', len(gt_21))
-print('total dates with year < 21- ', len(gt_others))
-print('-'*20)
+# print('total dates with year 21- ', len(gt_21))
+# print('total dates with year < 21- ', len(gt_others))
+# print('-'*20)
 
 # ------------------------------------------
 
@@ -131,15 +131,15 @@ for i in range(len(gt_21)):
 
 len_gt21 = float(len(gt_21))
 
-if len(gt_21) != 0:
+# if len(gt_21) != 0:
 
-    print('Word Acc for year 21 - ', correct_21/float(len(gt_21)))
-    print('Char Acc for year 21 - ', (float(len(gt_21))-ned_21)/float(len(gt_21)))
-    print('*'*20)
-    print('Day Acc for year 21 - ', day_correct/float(len(gt_21)))
-    print('Month Acc for year 21 - ', month_correct/float(len(gt_21)))
-    print('Year Acc for year 21 - ', year_correct/float(len(gt_21)))
-    print('-'*20)
+    # print('Word Acc for year 21 - ', correct_21/float(len(gt_21)))
+    # print('Char Acc for year 21 - ', (float(len(gt_21))-ned_21)/float(len(gt_21)))
+    # print('*'*20)
+    # print('Day Acc for year 21 - ', day_correct/float(len(gt_21)))
+    # print('Month Acc for year 21 - ', month_correct/float(len(gt_21)))
+    # print('Year Acc for year 21 - ', year_correct/float(len(gt_21)))
+    # print('-'*20)
 
 
 # ------------------------------------
@@ -160,13 +160,13 @@ for i in range(len(gt_others)):
 
     ned_others  += EditDistDP(gt_others[i], pred_others[i]) / max(len(gt_others[i]), len(pred_others[i]))
 
-print('Word Acc for year < 21 - ', correct_others/float(len(gt_others)))
-print('Char Acc for year < 21 - ', (len(gt_others)-ned_others)/float(len(gt_others)))
-print('*'*20)
-print('Day Acc for year < 21 - ', day_correct/float(len(gt_others)))
-print('Month Acc for year < 21 - ', month_correct/float(len(gt_others)))
-print('Year Acc for year < 21 - ', year_correct/float(len(gt_others)))
-print('-'*20)
+# print('Word Acc for year < 21 - ', correct_others/float(len(gt_others)))
+# print('Char Acc for year < 21 - ', (len(gt_others)-ned_others)/float(len(gt_others)))
+# print('*'*20)
+# print('Day Acc for year < 21 - ', day_correct/float(len(gt_others)))
+# print('Month Acc for year < 21 - ', month_correct/float(len(gt_others)))
+# print('Year Acc for year < 21 - ', year_correct/float(len(gt_others)))
+# print('-'*20)
 
 
 # ------------------------------------
