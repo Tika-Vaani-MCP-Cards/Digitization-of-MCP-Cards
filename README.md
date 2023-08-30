@@ -71,7 +71,7 @@ Results saved in `output`:
 2. Multiple ROIs are saved w.r.t each local homography.
 3. All ROIs and homography matrices names are prepended by `local_homography_number`.
 
-All local ROIs go through OCR and highest-confidence prediction is chosen. </br>You can skip the local homography part and directly run OCR on the ROIs extracted through global alignment. 
+All local ROIs go through OCR, and the highest-confidence prediction is chosen. </br>You can also skip the local homography part and directly run OCR on the ROIs extracted through global alignment. 
 
 ## Instructions for Performing OCR
 
